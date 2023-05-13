@@ -1,5 +1,5 @@
 if (localStorage.getItem("email") != undefined) {
-  window.location.replace("http://localhost/tp_web/pages/home/home.html");
+  window.location.replace("http://localhost/pages/home/home.html");
 }
 
 $(document).ready(function () {
@@ -46,7 +46,7 @@ $(document).ready(function () {
           localStorage.setItem("email", response.response.email);
           localStorage.setItem("name", response.response.name);
           window.location.replace(
-            "http://localhost/tp_web/pages/home/home.html"
+            "http://localhost/pages/home/home.html"
           );
         }
       })

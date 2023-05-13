@@ -1,5 +1,5 @@
 if (localStorage.getItem("email") == undefined) {
-  window.location.replace("http://localhost/tp_web/pages/login/login.html");
+  window.location.replace("http://localhost/pages/login/login.html");
 }
 
 function load_tasks() {
@@ -242,7 +242,7 @@ $(document).ready(function () {
         } else {
           localStorage.clear();
           window.location.replace(
-            "http://localhost/tp_web/pages/login/login.html"
+            "http://localhost/pages/login/login.html"
           );
         }
       })

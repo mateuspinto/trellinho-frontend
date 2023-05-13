@@ -11,7 +11,7 @@ $(document).ready(function () {
     };
 
     $.ajax({
-      url: "http://localhost/tp_web/crud/create/create_user.php",
+      url: "http://localhost/crud/create/create_user.php",
       type: "POST",
       data: { data_request: form_data },
     })
